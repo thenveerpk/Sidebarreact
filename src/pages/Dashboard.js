@@ -1,5 +1,4 @@
 import {useEffect,useState} from 'react';
-import PieChart from './PieChart';
  
  
  
@@ -142,7 +141,7 @@ const Dashboard = () => {
             </div>
             <div className="col-lg-5 col-md-6 col-sm-12 col-sm-offset-5">
                 <h4 className='title mt-3 mb-3 text-center text-secondary'>Data in Chart</h4>
-                 <div className="mb-5" style={{height:"300px",width:"400px"}}><PieChart/> </div></div>
+                 <div className="mb-5" style={{height:"300px",width:"400px"}}></div></div>
         </div>
        
         <a id="more"></a>
